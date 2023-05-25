@@ -1,0 +1,198 @@
+.intro,
+.about,
+.team,
+.services,
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 100vw;
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+}
+
+.overflow {
+  position: absolute;
+  bottom: 10vh;
+
+  width: 100vw;
+  height: 10vh;
+
+  background-color: rgb(245, 148, 148);
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.intro {
+  background-color: rgb(245, 148, 148);
+  color: white;
+  border-color: white;
+}
+/**------------------------------------*/
+.about {
+  background-color: rgb(245, 222, 148);
+  color: black;
+  border-color: black;
+}
+
+.about.overflow {
+  bottom: -70vh;
+  background-color: rgb(245, 222, 148);
+}
+/**------------------------------------*/
+.team {
+  background-color: rgb(177, 245, 148);
+  color: black;
+  border-color: black;
+}
+.team.overflow {
+  bottom: -150vh;
+  background-color: rgb(177, 245, 148);
+}
+/**------------------------------------*/
+.services {
+  background-color: rgb(148, 245, 229);
+  color: black;
+  border-color: black;
+}
+.services.overflow {
+  bottom: -230vh;
+  background-color: rgb(148, 245, 229);
+}
+/**------------------------------------*/
+.contact {
+  background-color: rgb(150, 148, 245);
+  color: black;
+  border-color: black;
+}
+.contact.overflow {
+  bottom: -310vh;
+  background-color: rgb(150, 148, 245);
+}
+/**------------------------------------*/
+.intro-text {
+  display: flex;
+  align-items: center;
+}
+.intro-title {
+  font-family: "raleway-bold";
+  font-size: 48px;
+}
+.intro-line {
+  height: 60px;
+  width: 0px;
+  border: 1px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.intro-description {
+  font-family: "raleway-regular";
+  font-size: 24px;
+}
+.intro-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stats-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 30vw;
+  height: 10vh;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+
+  font-size: 18px;
+}
+
+.stat-icon {
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 10px;
+}
+.stat-text {
+  font-family: "raleway-medium";
+}
+
+.about {
+  text-align: left;
+}
+.about-title {
+  font-family: "raleway-bold";
+  font-size: 32px;
+}
+.about-text {
+  max-width: 30vw;
+
+  font-family: "raleway-light";
+  font-size: 18px;
+}
+
+.team-title {
+  font-family: "raleway-bold";
+  font-size: 32px;
+}
+
+.team-members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.team-member {
+  position: relative;
+
+  width: 20vw;
+  height: 20vh;
+
+  margin-left: 5px;
+  margin-right: 5px;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.team-text {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+
+  text-align: left;
+}
+
+.team-name {
+  font-family: "raleway-semibold";
+  font-size: 18px;
+}
+.team-function {
+  font-family: "raleway-light";
+  font-size: 16px;
+}
+
+.team-links {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+
+  text-decoration: none;
+  font-size: 24px;
+}
+.team-links a {
+  color: black;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+
+  background-color: rgb(54, 54, 54);
+}

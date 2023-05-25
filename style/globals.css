@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "raleway-bold";
+  src: url("./fonts/Raleway-Black.ttf");
+}
+@font-face {
+  font-family: "raleway-semibold";
+  src: url("./fonts/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "raleway-medium";
+  src: url("./fonts/Raleway-Medium.ttf");
+}
+@font-face {
+  font-family: "raleway-regular";
+  src: url("./fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "raleway-light";
+  src: url("./fonts/Raleway-Light.ttf");
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+:root {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: white;
+  font-size: "Inter Tight";
+}
