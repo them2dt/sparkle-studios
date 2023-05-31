@@ -176,7 +176,6 @@
   font-family: "raleway-light";
   font-size: 16px;
 }
-
 .team-links {
   position: absolute;
   bottom: 40px;
@@ -195,4 +194,109 @@
   height: 20vh;
 
   background-color: rgb(54, 54, 54);
+}
+.services-grid {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.service-detail {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  width: 15vw;
+  height: 5vh;
+  padding-left: 20px;
+
+  background-color: white;
+  color: rgb(50, 50, 50);
+  font-family: "raleway-light";
+}
+.service-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 15vw;
+  height: 5vh;
+  padding-left: 20px;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  color: rgb(255, 255, 255);
+  font-family: "raleway-semibold";
+}
+.service-package-1 .service-name {
+  background-color: rgb(255, 78, 96);
+}
+.service-package-2 .service-name {
+  background-color: rgb(255, 214, 127);
+}
+.service-package-3 .service-name {
+  background-color: rgb(132, 245, 112);
+}
+.service-inclusion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 15vw;
+  height: 5vh;
+  padding-left: 20px;
+
+  background-color: white;
+  color: rgb(50, 50, 50);
+  font-family: "raleway-light";
+}
+.service-inclusion:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}
+.service-check {
+  color: rgb(35, 224, 133);
+}
+.service-xmark {
+  color: rgb(246, 31, 60);
+}
+.service-detail:nth-child(1) {
+  border-top-left-radius: 20px;
+}
+.service-detail:nth-child(odd) {
+  background-color: rgb(250, 250, 250);
+}
+
+.services-bookable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: calc(60vw + 80px);
+  height: 10vh;
+
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.services-bookable button {
+  padding: 20px;
+
+  background-color: rgb(26, 40, 93);
+  border: 0px solid black;
+  color: white;
+  font-family: "raleway-semibold";
+  font-size: 18px;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.services-bookable button:hover {
+  transition-duration: 0.2s;
+  background-color: rgb(227, 227, 227);
+  color: rgb(26, 40, 93);
+}
+.services-bookable button:not:hover {
+  transition-duration: 0.2s;
 }

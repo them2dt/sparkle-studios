@@ -1,5 +1,9 @@
 import { faCertificate, faStream } from "@fortawesome/fontawesome-free-solid";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faCircleCheck,
+  faCircleXmark,
+} from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { React } from "react";
 
@@ -75,7 +79,7 @@ export default function App() {
                 <div className="team-function">CEO</div>
               </div>
               <div className="team-links">
-                <a href="https://twitter.com" target="_blank">
+                <a href="https://twitter.com/TheBatuKhan" target="_blank">
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
               </div>
@@ -86,7 +90,7 @@ export default function App() {
                 <div className="team-function">CTO</div>
               </div>
               <div className="team-links">
-                <a href="https://twitter.com" target="_blank">
+                <a href="https://twitter.com/THEM2DT" target="_blank">
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
               </div>
@@ -97,7 +101,7 @@ export default function App() {
                 <div className="team-function">CMO</div>
               </div>
               <div className="team-links">
-                <a href="https://twitter.com" target="_blank">
+                <a href="https://twitter.com/TheErzinator" target="_blank">
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
               </div>
@@ -107,6 +111,125 @@ export default function App() {
         <div className="overflow team"></div>
       </div>
       <div className="services" id="services">
+        <div className="services-content">
+          <div className="services-grid">
+            <div className="service-listing">
+              <div className="service-detail">Ad Managment</div>
+              <div className="service-detail">Funnel building</div>
+              <div className="service-detail">Branding package</div>
+              <div className="service-detail">consulting</div>
+              <div className="service-detail">re-optimising Content</div>
+            </div>
+            <div className="service-package-1">
+              <div className="service-name">basic</div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleCheck}
+                  className="service-check"
+                />
+              </div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+            </div>
+            <div className="service-package-2">
+              <div className="service-name">standard</div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleCheck}
+                  className="service-check"
+                />
+              </div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+            </div>
+            <div className="service-package-3">
+              <div className="service-name">premium</div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleCheck}
+                  className="service-check"
+                />
+              </div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+              <div className="service-inclusion last-service">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="services-bookable">
+            <button>Book a call!</button>
+          </div>
+        </div>
         <div className="overflow services"></div>
       </div>
       <div className="contact" id="contact">
