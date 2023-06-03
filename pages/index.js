@@ -1,15 +1,26 @@
-import { faCertificate, faStream } from "@fortawesome/fontawesome-free-solid";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { React, useRef } from "react";
 import {
   faCircleCheck,
   faCircleXmark,
 } from "@fortawesome/free-regular-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { React } from "react";
+import { faCertificate, faStream } from "@fortawesome/fontawesome-free-solid";
+import {
+  InlineWidget,
+  PopupButton,
+  PopupModal,
+  PopupWidget,
+} from "react-calendly";
+import Head from "next/head";
 
 export default function App() {
+  const ref = useRef(null);
   return (
-    <div className="app">
+    <div className="app" ref={ref}>
+      <Head>
+        <title>Sparkle Studios</title>
+      </Head>
       <div id="navigation" className="navigation">
         <div className="navbar">
           <div className="navbar-left">Sparkle Studios</div>
@@ -21,10 +32,10 @@ export default function App() {
               <a href="#team">team</a>
             </div>
             <div className="navbar-anchor">
-              <a href="#about">services</a>
+              <a href="#services">services</a>
             </div>
             <div className="navbar-anchor">
-              <a href="#about">contact</a>
+              <a href="#contact">contact</a>
             </div>
           </div>
         </div>
@@ -54,7 +65,6 @@ export default function App() {
         </div>
         <div className="overflow intro"></div>
       </div>
-
       <div className="about" id="about">
         <div className="about-content">
           <div className="about-title">About us</div>
@@ -226,16 +236,24 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div className="services-bookable">
-            <button>Book a call!</button>
+          <div className="services-bookable-container">
+            <div className="services-bookable">
+              <button>Book a call!</button>
+            </div>
           </div>
         </div>
         <div className="overflow services"></div>
       </div>
       <div className="contact" id="contact">
+        <div className="contact-box">
+          <InlineWidget
+            url="https://calendly.com/sparkle-studios/30min"
+            styles={{ overflowY: "hidden", height: "700px" }}
+          />
+        </div>
         <div className="overflow contact"></div>
       </div>
-      <div className="footer" id="footer"></div>
+      <div className="footer" id="footer"> Sparkle Studios.</div>
     </div>
   );
 }

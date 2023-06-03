@@ -1,302 +1,341 @@
-.intro,
-.about,
-.team,
-.services,
-.contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+@media only screen and (min-width: 768px) {
+  .intro,
+  .about,
+  .team,
+  .services,
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
-  width: 100vw;
-  height: 80vh;
-  margin: 0;
-  padding: 0;
-}
+    width: 100vw;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+  }
 
-.overflow {
-  position: absolute;
-  bottom: 10vh;
+  .overflow {
+    position: absolute;
+    bottom: 10vh;
 
-  width: 100vw;
-  height: 10vh;
+    width: 100vw;
+    height: 10vh;
 
-  background-color: rgb(245, 148, 148);
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 80px;
-}
+    background-color: rgb(245, 148, 148);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
 
-.intro {
-  background-color: rgb(245, 148, 148);
-  color: white;
-  border-color: white;
-}
-/**------------------------------------*/
-.about {
-  background-color: rgb(245, 222, 148);
-  color: black;
-  border-color: black;
-}
+  .intro {
+    background-color: rgb(245, 148, 148);
+    color: white;
+    border-color: white;
+  }
+  /**------------------------------------*/
+  .about {
+    background-color: rgb(245, 222, 148);
+    color: black;
+    border-color: black;
+  }
 
-.about.overflow {
-  bottom: -70vh;
-  background-color: rgb(245, 222, 148);
-}
-/**------------------------------------*/
-.team {
-  background-color: rgb(177, 245, 148);
-  color: black;
-  border-color: black;
-}
-.team.overflow {
-  bottom: -150vh;
-  background-color: rgb(177, 245, 148);
-}
-/**------------------------------------*/
-.services {
-  background-color: rgb(148, 245, 229);
-  color: black;
-  border-color: black;
-}
-.services.overflow {
-  bottom: -230vh;
-  background-color: rgb(148, 245, 229);
-}
-/**------------------------------------*/
-.contact {
-  background-color: rgb(150, 148, 245);
-  color: black;
-  border-color: black;
-}
-.contact.overflow {
-  bottom: -310vh;
-  background-color: rgb(150, 148, 245);
-}
-/**------------------------------------*/
-.intro-text {
-  display: flex;
-  align-items: center;
-}
-.intro-title {
-  font-family: "raleway-bold";
-  font-size: 48px;
-}
-.intro-line {
-  height: 60px;
-  width: 0px;
-  border: 1px solid;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.intro-description {
-  font-family: "raleway-regular";
-  font-size: 24px;
-}
-.intro-stats {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.stats-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  .about.overflow {
+    bottom: -70vh;
+    background-color: rgb(245, 222, 148);
+  }
+  /**------------------------------------*/
+  .team {
+    background-color: rgb(177, 245, 148);
+    color: black;
+    border-color: black;
+  }
+  .team.overflow {
+    bottom: -150vh;
+    background-color: rgb(177, 245, 148);
+  }
+  /**------------------------------------*/
+  .services {
+    background-color: rgb(148, 245, 229);
+    color: black;
+    border-color: black;
+  }
+  .services.overflow {
+    bottom: -230vh;
+    background-color: rgb(148, 245, 229);
+  }
+  /**------------------------------------*/
+  .contact {
+    background-color: rgb(150, 148, 245);
+    color: black;
+    border-color: black;
+  }
+  .contact.overflow {
+    bottom: -310vh;
+    background-color: rgb(150, 148, 245);
+  }
+  /**------------------------------------*/
+  .intro-text {
+    display: flex;
+    align-items: center;
+  }
+  .intro-title {
+    font-family: "raleway-bold";
+    font-size: 48px;
+  }
+  .intro-line {
+    height: 60px;
+    width: 0px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .intro-description {
+    font-family: "raleway-regular";
+    font-size: 24px;
+  }
+  .intro-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .stats-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-  width: 30vw;
-  height: 10vh;
-}
+    width: 30vw;
+    height: 10vh;
+  }
 
-.stat {
-  display: flex;
-  align-items: center;
+  .stat {
+    display: flex;
+    align-items: center;
 
-  font-size: 18px;
-}
+    font-size: 18px;
+  }
 
-.stat-icon {
-  color: rgba(255, 255, 255, 0.5);
-  margin-right: 10px;
-}
-.stat-text {
-  font-family: "raleway-medium";
-}
+  .stat-icon {
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 10px;
+  }
+  .stat-text {
+    font-family: "raleway-medium";
+  }
 
-.about {
-  text-align: left;
-}
-.about-title {
-  font-family: "raleway-bold";
-  font-size: 32px;
-}
-.about-text {
-  max-width: 30vw;
+  .about {
+    text-align: left;
+  }
+  .about-title {
+    font-family: "raleway-bold";
+    font-size: 32px;
+  }
+  .about-text {
+    max-width: 30vw;
 
-  font-family: "raleway-light";
-  font-size: 18px;
-}
+    font-family: "raleway-light";
+    font-size: 18px;
+  }
 
-.team-title {
-  font-family: "raleway-bold";
-  font-size: 32px;
-}
+  .team-title {
+    font-family: "raleway-bold";
+    font-size: 32px;
+  }
 
-.team-members {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-}
+  .team-members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
 
-.team-member {
-  position: relative;
+  .team-member {
+    position: relative;
 
-  width: 20vw;
-  height: 20vh;
+    width: 20vw;
+    height: 20vh;
 
-  margin-left: 5px;
-  margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-}
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
 
-.team-text {
-  position: absolute;
-  top: 40px;
-  left: 40px;
+  .team-text {
+    position: absolute;
+    top: 40px;
+    left: 40px;
 
-  text-align: left;
-}
+    text-align: left;
+  }
 
-.team-name {
-  font-family: "raleway-semibold";
-  font-size: 18px;
-}
-.team-function {
-  font-family: "raleway-light";
-  font-size: 16px;
-}
-.team-links {
-  position: absolute;
-  bottom: 40px;
-  right: 40px;
+  .team-name {
+    font-family: "raleway-semibold";
+    font-size: 18px;
+  }
+  .team-function {
+    font-family: "raleway-light";
+    font-size: 16px;
+  }
+  .team-links {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
 
-  text-decoration: none;
-  font-size: 24px;
-}
-.team-links a {
-  color: black;
-}
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20vh;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  .team-links a {
+    color: black;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
 
-  background-color: rgb(54, 54, 54);
-}
-.services-grid {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-.service-detail {
-  display: flex;
-  align-items: center;
-  justify-content: left;
+    background-color: rgb(54, 54, 54);
+  }
+  .services-grid {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .service-detail {
+    display: flex;
+    align-items: center;
+    justify-content: left;
 
-  width: 15vw;
-  height: 5vh;
-  padding-left: 20px;
+    width: 15vw;
+    height: 5vh;
+    padding-left: 20px;
 
-  background-color: white;
-  color: rgb(50, 50, 50);
-  font-family: "raleway-light";
-}
-.service-name {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: white;
+    color: rgb(50, 50, 50);
+    font-family: "raleway-light";
+  }
+  .service-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  width: 15vw;
-  height: 5vh;
-  padding-left: 20px;
+    width: 15vw;
+    height: 5vh;
+    padding-left: 20px;
 
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 
-  color: rgb(255, 255, 255);
-  font-family: "raleway-semibold";
-}
-.service-package-1 .service-name {
-  background-color: rgb(255, 78, 96);
-}
-.service-package-2 .service-name {
-  background-color: rgb(255, 214, 127);
-}
-.service-package-3 .service-name {
-  background-color: rgb(132, 245, 112);
-}
-.service-inclusion {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "raleway-semibold";
+  }
+  .service-package-1 .service-name {
+    background-color: rgb(255, 78, 96);
+  }
+  .service-package-2 .service-name {
+    background-color: rgb(255, 214, 127);
+  }
+  .service-package-3 .service-name {
+    background-color: rgb(132, 245, 112);
+  }
+  .service-inclusion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  width: 15vw;
-  height: 5vh;
-  padding-left: 20px;
+    width: 15vw;
+    height: 5vh;
+    padding-left: 20px;
 
-  background-color: white;
-  color: rgb(50, 50, 50);
-  font-family: "raleway-light";
-}
-.service-inclusion:nth-child(even) {
-  background-color: rgb(240, 240, 240);
-}
-.service-check {
-  color: rgb(35, 224, 133);
-}
-.service-xmark {
-  color: rgb(246, 31, 60);
-}
-.service-detail:nth-child(1) {
-  border-top-left-radius: 20px;
-}
-.service-detail:nth-child(odd) {
-  background-color: rgb(250, 250, 250);
-}
+    background-color: white;
+    color: rgb(50, 50, 50);
+    font-family: "raleway-light";
+  }
+  .service-inclusion:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+  }
+  .service-check {
+    color: rgb(35, 224, 133);
+  }
+  .service-xmark {
+    color: rgb(246, 31, 60);
+  }
+  .service-detail:nth-child(1) {
+    border-top-left-radius: 20px;
+  }
+  .service-detail:nth-child(5) {
+    border-bottom-left-radius: 20px;
+  }
+  .service-detail:nth-child(odd) {
+    background-color: rgb(250, 250, 250);
+  }
 
-.services-bookable {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .services-bookable-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: calc(60vw + 80px);
+  }
+  .services-bookable {
+    position: relative;
 
-  width: calc(60vw + 80px);
-  height: 10vh;
+    width: calc(45vw + 60px);
+    height: calc(7.5vh + 20px);
 
-  background-color: rgb(255, 255, 255);
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
 
-.services-bookable button {
-  padding: 20px;
+  .services-bookable button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 
-  background-color: rgb(26, 40, 93);
-  border: 0px solid black;
-  color: white;
-  font-family: "raleway-semibold";
-  font-size: 18px;
-  border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  cursor: pointer;
-}
+    width: calc(45vw + 40px);
+    height: 7.5vh;
+    padding: 20px;
 
-.services-bookable button:hover {
-  transition-duration: 0.2s;
-  background-color: rgb(227, 227, 227);
-  color: rgb(26, 40, 93);
-}
-.services-bookable button:not:hover {
-  transition-duration: 0.2s;
+    background-color: rgb(26, 40, 93);
+    border: 0px solid black;
+    color: white;
+    font-family: "raleway-semibold";
+    font-size: 18px;
+    border-radius: 15px;
+
+    cursor: pointer;
+  }
+
+  .services-bookable button:hover {
+    transition-duration: 0.2s;
+    background-color: rgb(227, 227, 227);
+    color: rgb(26, 40, 93);
+  }
+  .services-bookable button:not:hover {
+    transition-duration: 0.2s;
+  }
+
+  .contact {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .contact-box {
+    width: 80vw;
+  }
+
+  .footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    padding-bottom: 40px;
+
+    font-family: "raleway-light";
+    color: rgba(255, 255, 255, 0.5);
+  }
 }
