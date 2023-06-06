@@ -10,14 +10,15 @@
     text-align: center;
 
     width: 100vw;
-    height: 80vh;
+    height: 120vh;
     margin: 0;
     padding: 0;
   }
 
   .overflow {
     position: absolute;
-    bottom: 10vh;
+    bottom: -30vh;
+    z-index: 999;
 
     width: 100vw;
     height: 10vh;
@@ -40,7 +41,7 @@
   }
 
   .about.overflow {
-    bottom: -70vh;
+    bottom: -150vh;
     background-color: rgb(245, 222, 148);
   }
   /**------------------------------------*/
@@ -50,7 +51,7 @@
     border-color: black;
   }
   .team.overflow {
-    bottom: -150vh;
+    bottom: -270vh;
     background-color: rgb(177, 245, 148);
   }
   /**------------------------------------*/
@@ -60,7 +61,7 @@
     border-color: black;
   }
   .services.overflow {
-    bottom: -230vh;
+    bottom: -390vh;
     background-color: rgb(148, 245, 229);
   }
   /**------------------------------------*/
@@ -70,7 +71,7 @@
     border-color: black;
   }
   .contact.overflow {
-    bottom: -310vh;
+    bottom: -510vh;
     background-color: rgb(150, 148, 245);
   }
   /**------------------------------------*/
