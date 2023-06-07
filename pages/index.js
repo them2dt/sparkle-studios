@@ -141,7 +141,7 @@ export default function App() {
               </div>
               <div className="service-inclusion">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
+                  icon={faCircleCheck}
                   className="service-check"
                 />
               </div>
@@ -187,7 +187,7 @@ export default function App() {
               <div className="service-inclusion">
                 <FontAwesomeIcon
                   icon={faCircleXmark}
-                  className="service-check"
+                  className="service-xmark"
                 />
               </div>
 
@@ -226,25 +226,25 @@ export default function App() {
               </div>
               <div className="service-inclusion">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
+                  icon={faCircleCheck}
                   className="service-check"
                 />
               </div>
               <div className="service-inclusion">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
+                  icon={faCircleCheck}
                   className="service-check"
                 />
               </div>
               <div className="service-inclusion">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
+                  icon={faCircleCheck}
                   className="service-check"
                 />
               </div>
               <div className="service-inclusion last-service">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
+                  icon={faCircleCheck}
                   className="service-check"
                 />
               </div>
