@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div className="app" ref={ref}>
       <Head>
-        <title>Sparkle Studios</title>
+        <title href="#intro">Sparkle Studios</title>
       </Head>
       <div id="navigation" className="navigation">
         <div className="navbar">
@@ -125,6 +125,7 @@ export default function App() {
           <div className="services-grid">
             <div className="service-listing">
               <div className="service-detail">Ad Managment</div>
+              <div className="service-detail">TikTok videos</div>
               <div className="service-detail">Funnel building</div>
               <div className="service-detail">Branding package</div>
               <div className="service-detail">consulting</div>
@@ -140,18 +141,22 @@ export default function App() {
               </div>
               <div className="service-inclusion">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
-                  className="service-xmark"
+                  icon={faCircleCheck}
+                  className="service-check"
                 />
               </div>
-
               <div className="service-inclusion">
                 <FontAwesomeIcon
                   icon={faCircleXmark}
                   className="service-xmark"
                 />
               </div>
-
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleXmark}
+                  className="service-xmark"
+                />
+              </div>
               <div className="service-inclusion">
                 <FontAwesomeIcon
                   icon={faCircleXmark}
@@ -175,6 +180,12 @@ export default function App() {
               </div>
               <div className="service-inclusion">
                 <FontAwesomeIcon
+                  icon={faCircleCheck}
+                  className="service-check"
+                />
+              </div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
                   icon={faCircleXmark}
                   className="service-xmark"
                 />
@@ -186,7 +197,6 @@ export default function App() {
                   className="service-xmark"
                 />
               </div>
-
               <div className="service-inclusion">
                 <FontAwesomeIcon
                   icon={faCircleXmark}
@@ -210,35 +220,39 @@ export default function App() {
               </div>
               <div className="service-inclusion">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
-                  className="service-xmark"
+                  icon={faCircleCheck}
+                  className="service-check"
                 />
               </div>
-
               <div className="service-inclusion">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
-                  className="service-xmark"
+                  icon={faCircleCheck}
+                  className="service-check"
                 />
               </div>
-
               <div className="service-inclusion">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
-                  className="service-xmark"
+                  icon={faCircleCheck}
+                  className="service-check"
+                />
+              </div>
+              <div className="service-inclusion">
+                <FontAwesomeIcon
+                  icon={faCircleCheck}
+                  className="service-check"
                 />
               </div>
               <div className="service-inclusion last-service">
                 <FontAwesomeIcon
-                  icon={faCircleXmark}
-                  className="service-xmark"
+                  icon={faCircleCheck}
+                  className="service-check"
                 />
               </div>
             </div>
           </div>
           <div className="services-bookable-container">
             <div className="services-bookable">
-              <button>Book a call!</button>
+              <button href="#contact">Book a call!</button>
             </div>
           </div>
         </div>
