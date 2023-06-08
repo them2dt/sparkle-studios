@@ -23,10 +23,7 @@ export default function App() {
       </Head>
       <div id="navigation" className="navigation">
         <div className="navbar">
-          <div className="navbar-left">
-            <a href="#intro">Sparkle Studios
-            </a>
-            </div>
+          <div className="navbar-left">Sparkle Studios</div>
           <div className="navbar-right">
             <div className="navbar-anchor">
               <a href="#about">about us</a>
