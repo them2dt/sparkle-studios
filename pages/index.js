@@ -23,7 +23,10 @@ export default function App() {
       </Head>
       <div id="navigation" className="navigation">
         <div className="navbar">
-          <div className="navbar-left" href="#intro">Sparkle Studios</div>
+          <div className="navbar-left">
+            <a href="#intro">Sparkle Studios
+            </a>
+            </div>
           <div className="navbar-right">
             <div className="navbar-anchor">
               <a href="#about">about us</a>
@@ -180,7 +183,7 @@ export default function App() {
               <div className="service-inclusion">
                 <FontAwesomeIcon
                   icon={faCircleCheck}
-                  className="service-Check"
+                  className="service-check"
                 />
               </div>
               <div className="service-inclusion">
