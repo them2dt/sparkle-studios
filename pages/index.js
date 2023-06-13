@@ -43,7 +43,7 @@ export default function App() {
       <div className="intro">
         <div className="intro-content">
           <div className="intro-text">
-            <div className="intro-title"><img src="A.png" alt="Sparkle Studios"/></div> 
+            <div className="intro-title"><img src="A.png" alt="SparkleStudios"/></div> 
             <div className="intro-line"></div>
             <div className="intro-description">
               Boost your business with us.
