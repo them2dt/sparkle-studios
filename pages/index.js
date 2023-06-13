@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div className="app" ref={ref}>
       <Head>
-        <title>Spa</title>
+        <title>Sparkle Studios</title>
       </Head>
       <div id="navigation" className="navigation">
         <div className="navbar">
