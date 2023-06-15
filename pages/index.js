@@ -23,7 +23,7 @@ export default function App() {
       </Head>
       <div id="navigation" className="navigation">
         <div className="navbar">
-          <div className="navbar-left">Sparkle Studios</div>
+          <img className="navbar-left" src="./sparklestudios.png" alt="Sparkle Studios"/>
           <div className="navbar-right">
             <div className="navbar-anchor">
               <a href="#about">about us</a>
@@ -43,7 +43,7 @@ export default function App() {
       <div className="intro">
         <div className="intro-content">
           <div className="intro-text">
-            <div className="intro-title"><img src="/public/sparklestudios.png" alt="SparkleStudios"/></div> 
+            <div className="intro-title"><img src="/public/hsparklestudios.png" alt="SparkleStudios"/></div> 
             <div className="intro-line"></div>
             <div className="intro-description">
               Boost your business with us.
